@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-27T20:36:03 EST" name="Default suite" finished-at="2022-12-27T20:36:17 EST" duration-ms="13285">
+    <groups>
+    </groups>
+    <test started-at="2022-12-27T20:36:03 EST" name="Default test" finished-at="2022-12-27T20:36:17 EST" duration-ms="13285">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@fba92d3]" started-at="2022-12-27T20:36:03 EST" name="setUp" finished-at="2022-12-27T20:36:09 EST" duration-ms="5558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:tests.LoginTest@fba92d3]" started-at="2022-12-27T20:36:09 EST" name="verifyLoginPageTitleTest" finished-at="2022-12-27T20:36:09 EST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@fba92d3]" started-at="2022-12-27T20:36:09 EST" name="tearDown" finished-at="2022-12-27T20:36:10 EST" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@fba92d3]" started-at="2022-12-27T20:36:10 EST" name="setUp" finished-at="2022-12-27T20:36:15 EST" duration-ms="5326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:2, instance:tests.LoginTest@fba92d3]" started-at="2022-12-27T20:36:15 EST" name="loginTest" finished-at="2022-12-27T20:36:16 EST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@fba92d3]" started-at="2022-12-27T20:36:16 EST" name="tearDown" finished-at="2022-12-27T20:36:17 EST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
