@@ -1,0 +1,5 @@
+tests\DealsPageTest.class
+tests\TasksPageTest.class
+tests\ContactsPageTest.class
+tests\HomePageTest.class
+tests\LoginTest.class
