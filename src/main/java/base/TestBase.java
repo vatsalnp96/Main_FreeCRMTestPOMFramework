@@ -38,13 +38,16 @@ public class TestBase {
 	}
 	
 	public static void initialization() {
-		System.setProperty("webdriver.gecko.driver", "C:\\SeleniumJars\\geckodriver.exe");
+		
 		
 		if(prop.getProperty("browser").equals("Firefox")) {
+			System.setProperty("webdriver.gecko.driver", "C:\\SeleniumJars\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}else if (prop.getProperty("browser").equals("Chrome")) {
+			System.setProperty("webdriver.chrome.driver", "C:\\SeleniumJars\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}else {
+			System.setProperty("webdriver.gecko.driver", "C:\\SeleniumJars\\geckodriver.exe");  //not having iedriver rightnow; will add in future
 			driver = new InternetExplorerDriver();
 		}
 		
